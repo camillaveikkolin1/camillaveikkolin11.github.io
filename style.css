@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: so; 
+  background-color: #5e5050; /* taustan tummanharmaa/ruskea */
+  color: #2e2e2e; /* yleinen tekstiväri */
+  align-content: center;
+}
+
+header {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #f7aebe; /* vaaleanpunainen */
+  padding: 20px 0;
+  .notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #d5d5d5; /* vaaleanharmaa */
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(1,1,1,1);
+}
+
+nav a {
+  flex: 5;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #3e3e3e; /* tummanharmaa teksti */
+  font-weight: bold;
+  border-right: 1px solid #aaa;
+  box-shadow: 0 0 10px rgba(1,1,1,1);
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav a.active {
+  border: 2px solid #f7aebe;
+  border-radius: 5px;
+  background-color: #eaeaea;
+
+ 
+}
+
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fddede; /* vaaleanpunainen tausta laatikolle */
+  padding: 30px;
+  border-radius: 25px;
+  line-height: 1.6;
+  color: #3b3b3b; /* teksti */
+  box-shadow: 0 0 10px rgba(1,1,1,1);
+  align-content: center;
+
+  } 
+
+  image  {
+  
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 25px;
+  size: 50%;
+}
+
+link
+a:link {
+  color: #3b3b3b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:#f7aebe;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff708f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #3b3b3b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+text {
+  text-align: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  }
